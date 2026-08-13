@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { NavLink, Outlet } from 'react-router'
-import icon from '../assets/icon.png'
+import icon from '../assets/icon.webp'
 import { paths } from '../paths'
 
 function PhoneIcon() {
