@@ -1,5 +1,4 @@
-# orinav.com
-<img src="Assets/orinav.png" width="256" alt="Orinav Icon">
+<img src="public/orinav.png" width="256" alt="Orinav Icon">
 
 Welcome to Orinav!
 
@@ -21,7 +20,3 @@ Please feel free to contribute by submitting an issue. Each contribution helps u
 ## 📃 License
 
 This product is distributed under a proprietary license. Please refer to [Orinav Terms of Service](https://orinav.com/terms) for details.
-
-## 🗨️ Contacts
-
-For more details about our services, feel free to reach out to us through the contact form on our website: [Orinav](https://orinav.com).
