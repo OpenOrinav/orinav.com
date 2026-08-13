@@ -71,8 +71,8 @@ const cards: NotificationCard[] = [
         tone: 'pink'
     },
     {
-        title: 'Turn right on to Piccadilly Street',
-        detail: 'Continue for 25 meters',
+        title: 'Turn right onto Piccadilly Street',
+        detail: 'Continue for 56 meters',
         activeFor: 1,
         icon: <FontAwesomeIcon icon={faArrowRight}/>,
         tone: 'blue'
