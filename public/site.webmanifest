@@ -1,0 +1,16 @@
+{
+  "name": "Orinav",
+  "short_name": "Orinav",
+  "description": "Orinav transforms the navigation experience for people with visual impairments. Navigate the world safely and independently—it's all in one app.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#7300ff",
+  "icons": [
+    {
+      "src": "/icon-rounded.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
