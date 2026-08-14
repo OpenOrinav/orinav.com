@@ -300,7 +300,7 @@ export default function HomePage() {
     return (
         <div className="home-page">
             <Seo
-                title="Orinav — AI-Powered Navigation for People with Visual Impairments"
+                title="Orinav — AI-Powered Navigation for Visual Impairments"
                 description="Orinav transforms the navigation experience for people with visual impairments. Navigate the world safely and independently—it's all in one app."
                 path={paths.home}
             />
