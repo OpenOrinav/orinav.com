@@ -182,7 +182,7 @@ const reasonCards = [
     }
 ]
 
-export function HomePage() {
+export default function HomePage() {
     const sceneRef = useRef<HTMLElement>(null)
     const integrationCardRef = useRef<HTMLElement>(null)
     const manualStageRef = useRef<number | null>(null)

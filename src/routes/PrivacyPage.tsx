@@ -3,7 +3,7 @@ import { LegalPage } from './LegalPage'
 import { Seo } from '../Seo'
 import { paths } from '../paths'
 
-export function PrivacyPage() {
+export default function PrivacyPage() {
     return <>
         <Seo
             title="Privacy Policy — Orinav"

@@ -3,7 +3,7 @@ import { LegalPage } from './LegalPage'
 import { Seo } from '../Seo'
 import { paths } from '../paths'
 
-export function TermsPage() {
+export default function TermsPage() {
     return <>
         <Seo
             title="Terms of Service — Orinav"

@@ -17,8 +17,8 @@ function PhoneIcon() {
     )
 }
 
-export function RootLayout() {
-    const [ isCompact, setIsCompact ] = useState(() => window.scrollY > 0)
+export default function RootLayout() {
+    const [ isCompact, setIsCompact ] = useState(false)
 
     useEffect(() => {
         const updateNavbar = () => setIsCompact(window.scrollY > 0)

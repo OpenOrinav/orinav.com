@@ -2,7 +2,7 @@ import { Link } from 'react-router'
 import { paths } from '../paths'
 import { Seo } from '../Seo'
 
-export function NotFoundPage() {
+export default function NotFoundPage() {
     return (
         <section className="page" aria-labelledby="not-found-title">
             <Seo
