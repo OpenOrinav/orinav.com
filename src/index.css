@@ -864,6 +864,43 @@ main {
     color: #fff;
 }
 
+.impact-stat-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: clamp(0.75rem, 1.5vw, 1.25rem);
+    margin: clamp(1.5rem, 3vw, 2.25rem) 0 0;
+}
+
+.impact-stat {
+    min-width: 0;
+    padding: clamp(1.5rem, 2.5vw, 2.25rem);
+    border-radius: 1.5rem;
+    background: var(--color-card-gray);
+}
+
+.impact-stat dt {
+    color: #7300ff;
+    font-size: clamp(2.25rem, 4vw, 3.75rem);
+    font-weight: 650;
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+}
+
+.impact-stat dd {
+    margin: 1rem 0 0;
+    color: #100023;
+    font-size: clamp(0.95rem, 1.3vw, 1.1rem);
+    font-weight: 550;
+    line-height: 1.35;
+}
+
+.impact-stat__asterisk {
+    position: relative;
+    top: -0.35em;
+    margin-left: 0.1em;
+    font-size: 0.7em;
+}
+
 .integration-card {
     --left-phone-travel: 0px;
     --right-phone-travel: 0px;
@@ -1164,6 +1201,15 @@ main {
     height: auto;
 }
 
+.home-page__study-note {
+    width: min(75rem, calc(100% - 3rem));
+    margin: 0 auto;
+    padding: 0 0 2rem;
+    color: var(--color-text-gray);
+    font-size: 0.75rem;
+    line-height: 1.45;
+}
+
 .reasons-section {
     padding: clamp(5rem, 9vw, 8rem) 1.5rem;
     background: #fff;
@@ -1319,6 +1365,10 @@ main {
         grid-template-columns: 1fr;
     }
 
+    .impact-stat-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
     .integration-card > h3,
     .integration-card > p {
         max-width: 40%;
@@ -1467,6 +1517,20 @@ main {
 
     .download-section {
         padding: 4rem 1rem;
+    }
+
+    .impact-stat {
+        padding: 1.5rem;
+        border-radius: 1.25rem;
+    }
+
+    .impact-stat dt {
+        font-size: clamp(2rem, 12vw, 3rem);
+    }
+
+    .home-page__study-note {
+        width: calc(100% - 2rem);
+        padding-bottom: 1.5rem;
     }
 
     .reasons-section {

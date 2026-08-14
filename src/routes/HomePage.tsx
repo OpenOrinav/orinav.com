@@ -586,6 +586,26 @@ export default function HomePage() {
                                 obstacles and nearby objects, while recognizing traffic lights and more as you move.</p>
                         </article>
                     </div>
+
+                    <dl className="impact-stat-grid" aria-label="Orinav navigation study results and reach"
+                        aria-describedby="study-comparison-note">
+                        <div className="impact-stat">
+                            <dt>12%</dt>
+                            <dd>Navigation time improvement<span className="impact-stat__asterisk" aria-hidden="true">*</span></dd>
+                        </div>
+                        <div className="impact-stat">
+                            <dt>44%</dt>
+                            <dd>Reduction in hesitations<span className="impact-stat__asterisk" aria-hidden="true">*</span></dd>
+                        </div>
+                        <div className="impact-stat">
+                            <dt>43%</dt>
+                            <dd>Reduction in hazard approaches<span className="impact-stat__asterisk" aria-hidden="true">*</span></dd>
+                        </div>
+                        <div className="impact-stat">
+                            <dt>700+</dt>
+                            <dd>Users in 5 countries</dd>
+                        </div>
+                    </dl>
                 </div>
             </section>
 
@@ -637,6 +657,12 @@ export default function HomePage() {
                     </a>
                 </div>
             </section>
+
+            <p className="home-page__study-note" id="study-comparison-note">
+                *Statistics sourced from study conducted by A11yLab with 18 participants with varying degrees of visual impairments
+                on a typical suburban route. Compared to Amap, a mainstream Chinese navigation application with ~1 billion monthly active users,
+                Orinav achieves these results with a statistically significant effect.
+            </p>
         </div>
     )
 }
