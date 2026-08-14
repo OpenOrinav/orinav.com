@@ -467,8 +467,8 @@ export default function HomePage() {
                                  ref={integrationCardRef}>
                             <h3>Navigate & Explore, all working together.</h3>
                             <p>Choose the best route for your journey with shades and accessible infrastructure. Hear
-                                about obstacles, traffic lights, and crossings as you walk. All without the need to
-                                manually switch between features. It's that easy.</p>
+                                about obstacles, traffic lights, and crossings as you walk. Now, it all works within
+                                a single app. It's that easy.</p>
                             <div className="integration-card__mockups" aria-hidden="true">
                                 <img
                                     className="integration-card__phone integration-card__phone--lower"
@@ -484,7 +484,7 @@ export default function HomePage() {
                         </article>
 
                         <article className="feature-card feature-card--secondary">
-                            <p>Frequent route updates always keep you in the loop.</p>
+                            <p>Try Navigate: Frequent route updates always keep you in the loop.</p>
 
                             <div className="route-update-list">
                                 <div className="route-update">
@@ -518,7 +518,7 @@ export default function HomePage() {
 
                         <article className="feature-card feature-card--secondary environment-card">
                             <div className="feature-card__copy">
-                                <p>Explore your surroundings with AI-powered environment recognition.</p>
+                                <p>Try Explore: Hear your surroundings with AI-powered environment recognition.</p>
                             </div>
 
                             <img className="environment-card__photo" src={testingOutdoors}
@@ -555,13 +555,14 @@ export default function HomePage() {
                                    playsInline preload="metadata" aria-hidden="true"/>
                             <p>An easy way to know where to face.</p>
                             <p className="sr-only">Orinav uses prompts like "Turn 3 o'clock" to help you face the right
-                                way.</p>
+                                way. No more fussing with angles or imperceptible directions!</p>
                         </article>
 
                         <article className="feature-card feature-card--secondary timely-updates-card">
                             <p>Exactly the information you need, exactly when you need it.</p>
-                            <p className="sr-only">Orinav uses your navigation context to predict the information you
-                                need: traffic lights, crossings, hazards, among others.</p>
+                            <p className="sr-only">Orinav uses your navigation context and on-device intelligence to
+                                deliver the information you need: traffic lights, crossings, hazards, obstacle-dense
+                                zones, car parks, among others.</p>
                             <img src={orinavCards} className="timely-updates-card__artwork" alt=""/>
                         </article>
                     </div>
@@ -573,8 +574,8 @@ export default function HomePage() {
                     <header className="feature-section__header">
                         <h2 id="feature-section-title3">Know the world with <span
                             style={{ color: '#7300ff' }}>Explore</span></h2>
-                        <p>Discover what is around you with a simple raise of your phone. Orinav Explore identifies
-                            nearby obstacles and objects, then announces traffic lights as you move. Get immediate
+                        <p>Discover what is around you with a simple raise of your phone. Orinav Explore works in parallel
+                            with Navigate to identify nearby obstacles, objects, and traffic lights as you move. Get immediate
                             information whenever you need a clearer sense of your surroundings.</p>
                     </header>
 
