@@ -1,5 +1,4 @@
 import { useLocation } from 'react-router'
-import logo from './assets/icon-rounded.png'
 import { paths } from './paths'
 
 const SITE_ORIGIN = 'https://orinav.com'
@@ -17,7 +16,7 @@ export function Seo({ title, description, path, noIndex = false }: SeoProps) {
     const location = useLocation()
     const canonicalUrl = path ? new URL(path, SITE_ORIGIN).href : undefined
     const pageUrl = new URL(path ?? location.pathname, SITE_ORIGIN).href
-    const logoUrl = new URL(logo, SITE_ORIGIN).href
+    const logoUrl = new URL('/favicon/favicon-1024.png', SITE_ORIGIN).href
     const robots = noIndex
         ? 'noindex, nofollow, noarchive'
         : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
