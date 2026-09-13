@@ -659,7 +659,7 @@ export default function HomePage() {
             </section>
 
             <p className="home-page__study-note" id="study-comparison-note">
-                *Statistics sourced from study conducted by A11yLab with 18 participants with varying degrees of visual impairments
+                *Statistics sourced from study commissioned by A11yLab with 18 participants with varying degrees of visual impairments
                 on a typical suburban route. Compared to Amap, a mainstream Chinese navigation application with ~1 billion monthly active users,
                 Orinav achieves these results with a statistically significant effect.
             </p>
