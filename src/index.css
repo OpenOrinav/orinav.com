@@ -279,27 +279,27 @@ main {
     font-weight: 700;
 }
 
-.team-page {
+.team-section {
     width: min(72rem, 100%);
     margin: 0 auto;
     padding: clamp(3rem, 7vw, 6rem) 1.5rem 7rem;
 }
 
-.team-page-header {
+.team-section-header {
     padding-bottom: 2rem;
-    border-bottom: 1px solid rgb(23 32 42 / 20%);
+    text-align: center;
 }
 
-.team-page h1 {
+.team-section-header h2 {
     margin: 0;
-    font-size: var(--font-size-page-heading);
+    font-size: var(--font-size-section-heading);
     font-weight: 600;
     line-height: 0.95;
 }
 
-.team-page-header p {
+.team-section-header p {
     max-width: 48rem;
-    margin: 1.75rem 0 0;
+    margin: 1.75rem auto 0;
     color: var(--color-text-gray);
     font-size: 1.125rem;
     line-height: 1.7;
@@ -326,7 +326,7 @@ main {
     object-fit: contain;
 }
 
-.team-member h2 {
+.team-member h3 {
     margin: 1.25rem 0 0;
     font-size: 1.25rem;
     font-weight: 600;
@@ -1265,15 +1265,35 @@ main {
 }
 
 .app-store-link {
+    --badge-height: clamp(3.5rem, 6vw, 4rem);
     display: inline-flex;
+    flex-shrink: 0;
+    height: var(--badge-height);
     margin-top: 2rem;
     border-radius: 0.65rem;
 }
 
 .app-store-link img {
     display: block;
-    width: clamp(10.5rem, 18vw, 12rem);
-    height: auto;
+    width: auto;
+    height: 100%;
+}
+
+.app-store-link--android {
+    position: relative;
+    width: calc(var(--badge-height) * 2106 / 622);
+    overflow: hidden;
+}
+
+/* Crop the white margins embedded in the Android artwork. */
+.app-store-link--android img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    max-width: none;
+    height: calc(var(--badge-height) * 725 / 622);
+    transform: translate(-50%, -50%);
 }
 
 .home-page__study-note {

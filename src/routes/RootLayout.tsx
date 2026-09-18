@@ -62,7 +62,6 @@ export default function RootLayout() {
                     <div className="footer-meta">
                         <p>© 2026 A11yLab: The Beijing Academy Student Accessibility Initiative</p>
                         <nav className="footer-links" aria-label="Footer navigation">
-                            <NavLink to={paths.team}>Team</NavLink>
                             <NavLink to={paths.terms}>Terms</NavLink>
                             <NavLink to={paths.privacy}>Privacy</NavLink>
                         </nav>

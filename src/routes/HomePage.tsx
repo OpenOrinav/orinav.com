@@ -15,8 +15,10 @@ import beijingNewsLogo from '../assets/the-beijing-news.webp'
 import orinavCards from '../assets/orinav-cards.svg'
 import navigationMockup from '../assets/navigation-mockup.webp'
 import appStoreBadge from '../assets/app-store.svg'
+import androidBadge from '../assets/android.webp'
 import { paths } from '../paths'
 import { Seo } from '../Seo'
+import TeamSection from './TeamSection'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faArrowRight,
@@ -574,8 +576,10 @@ export default function HomePage() {
                     <header className="feature-section__header">
                         <h2 id="feature-section-title3">Know the world with <span
                             style={{ color: '#7300ff' }}>Explore</span></h2>
-                        <p>Discover what is around you with a simple raise of your phone. Orinav Explore works in parallel
-                            with Navigate to identify nearby obstacles, objects, and traffic lights as you move. Get immediate
+                        <p>Discover what is around you with a simple raise of your phone. Orinav Explore works in
+                            parallel
+                            with Navigate to identify nearby obstacles, objects, and traffic lights as you move. Get
+                            immediate
                             information whenever you need a clearer sense of your surroundings.</p>
                     </header>
 
@@ -591,15 +595,18 @@ export default function HomePage() {
                         aria-describedby="study-comparison-note">
                         <div className="impact-stat">
                             <dt>12%</dt>
-                            <dd>Navigation time improvement<span className="impact-stat__asterisk" aria-hidden="true">*</span></dd>
+                            <dd>Navigation time improvement<span className="impact-stat__asterisk"
+                                                                 aria-hidden="true">*</span></dd>
                         </div>
                         <div className="impact-stat">
                             <dt>44%</dt>
-                            <dd>Reduction in hesitations<span className="impact-stat__asterisk" aria-hidden="true">*</span></dd>
+                            <dd>Reduction in hesitations<span className="impact-stat__asterisk"
+                                                              aria-hidden="true">*</span></dd>
                         </div>
                         <div className="impact-stat">
                             <dt>43%</dt>
-                            <dd>Reduction in hazard approaches<span className="impact-stat__asterisk" aria-hidden="true">*</span></dd>
+                            <dd>Reduction in hazard approaches<span className="impact-stat__asterisk"
+                                                                    aria-hidden="true">*</span></dd>
                         </div>
                         <div className="impact-stat">
                             <dt>700+</dt>
@@ -648,19 +655,30 @@ export default function HomePage() {
                 </div>
             </section>
 
+            <TeamSection/>
+
             <section className="download-section" aria-labelledby="download-section-title">
                 <div className="section-container download-section__content">
                     <h2 id="download-section-title">Download Orinav</h2>
-                    <p>It's free to get started. Download the app today and take your next step towards independent travel.</p>
-                    <a className="app-store-link" href={paths.download}>
-                        <img src={appStoreBadge} alt="Download Orinav on the iOS App Store"/>
-                    </a>
+                    <p>It's free to get started. Download the app today and take your next step towards independent
+                        travel.</p>
+                    <div className="flex flex-wrap justify-center gap-x-5">
+                        <a className="app-store-link" href={paths.download}>
+                            <img src={appStoreBadge} alt="Download Orinav on the iOS App Store"/>
+                        </a>
+
+                        <a className="app-store-link app-store-link--android" href={paths.downloadAndroid}>
+                            <img src={androidBadge} alt="Download Orinav on Android"/>
+                        </a>
+                    </div>
                 </div>
             </section>
 
             <p className="home-page__study-note" id="study-comparison-note">
-                *Statistics sourced from study commissioned by A11yLab with 18 participants with varying degrees of visual impairments
-                on a typical suburban route. Compared to Amap, a mainstream Chinese navigation application with ~1 billion monthly active users,
+                *Statistics sourced from study commissioned by A11yLab with 18 participants with varying degrees of
+                visual impairments
+                on a typical suburban route. Compared to Amap, a mainstream Chinese navigation application with ~1
+                billion monthly active users,
                 Orinav achieves these results with a statistically significant effect.
             </p>
         </div>
