@@ -1,5 +1,6 @@
 export const paths = {
     home: '/',
+    team: '/team',
     privacy: '/privacy',
     terms: '/terms',
     download: 'https://apps.apple.com/us/app/id6752567992',
