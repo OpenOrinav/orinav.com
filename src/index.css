@@ -1279,12 +1279,6 @@ main {
     height: 100%;
 }
 
-.app-store-link--android {
-    position: relative;
-    width: calc(var(--badge-height) * 2106 / 622);
-    overflow: hidden;
-}
-
 /* Crop the white margins embedded in the Android artwork. */
 .app-store-link--android img {
     position: absolute;

@@ -15,7 +15,7 @@ import beijingNewsLogo from '../assets/the-beijing-news.webp'
 import orinavCards from '../assets/orinav-cards.svg'
 import navigationMockup from '../assets/navigation-mockup.webp'
 import appStoreBadge from '../assets/app-store.svg'
-import androidBadge from '../assets/android.webp'
+import androidBadge from '../assets/android.svg'
 import { paths } from '../paths'
 import { Seo } from '../Seo'
 import TeamSection from './TeamSection'
@@ -667,7 +667,7 @@ export default function HomePage() {
                             <img src={appStoreBadge} alt="Download Orinav on the iOS App Store"/>
                         </a>
 
-                        <a className="app-store-link app-store-link--android" href={paths.downloadAndroid}>
+                        <a className="app-store-link" href={paths.downloadAndroid}>
                             <img src={androidBadge} alt="Download Orinav on Android"/>
                         </a>
                     </div>
